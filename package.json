@@ -1,0 +1,19 @@
+{
+  "name": "indeads",
+  "version": "1.0.0",
+  "description": "Web application for InDeAds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpratap608/Indeads.git"
+  },
+  "author": "InDeAds Dev Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpratap608/Indeads/issues"
+  },
+  "homepage": "https://github.com/gpratap608/Indeads#readme"
+}
