@@ -10,12 +10,12 @@ In this Webapp our dev team at Indeads is working on creating an interface for t
     4. Clone the project.<br>
     5. Open the project in VS code.<br>
     6. Open new terminal.<br>
-    7. Type command <cd indeads>.<br>
-    8. Then type <npm i>.<br>
+    7. Type command "cd indeads".<br>
+    8. Then type "npm i".<br>
     9. You are now ready to contribute.<br>
 
-<h1>To run the project in your LocalHost.</h3><br>
+<h3>To run the project in your LocalHost.</h3><br>
     1. Go in terminal.<br>
-    2. Type <npm run dev><br>
+    2. Type "npm run dev"<br>
     3. Ctrl + left-click on the localhost link.<br>
     
