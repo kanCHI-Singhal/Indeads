@@ -1,22 +1,24 @@
+"use client";
+import React from 'react';
 import Image from 'next/image'
 import styles from './page.module.css'
-
+import Link from 'next/link'
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1> InDeADS </h1>
-     {/*} <div>
+     <h1 className={styles.Typewriter}>
        <Typewriter
               options={{
-                        strings: ['InDeADS', 'Show', 'Earn','Grow','With...'],
-                        autoStart: true,
-                        loop: true,
+                strings: ['InDeADS', 'Show', 'Earn','Grow','With...'],
+                autoStart: true,
+                loop: true,
               }}/> 
-            </div>{*/}
+            </h1>
       <div className={styles.flexContainer}>
         <div className={styles.flexContent}> 
-          <p className={styles.para}> Business </p>
+          <p className={styles.para}> <Link href='/business'>Business</Link> </p>
         </div>
         <div className={styles.flexContent}>
           <p className={styles.para}> Advertise </p>

@@ -1,5 +1,7 @@
+"use clients"
 import './globals.css'
 import { Inter } from 'next/font/google'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,17 +17,17 @@ export default function RootLayout({ children }) {
         <div>
           <nav>
           <ul className="nav">
-                <li >
-                  <a  href="#">Active</a>
+                <li className='nav-link' >
+                  <a href="/">Home</a>
                 </li>
-                <li >
-                  <a  href="#">Link</a>
+                <li className='nav-link'>
+                  <a  href="/">Link</a>
                 </li>
-                <li >
-                  <a  href="#">Link</a>
+                <li className='nav-link'>
+                  <a  href="/">Link</a>
                 </li>
-                <li >
-                  <a  href="#">Disabled</a>
+                <li className='nav-link'>
+                  <a  href="/">Disabled</a>
                 </li>
               </ul>
           </nav>

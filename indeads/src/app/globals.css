@@ -134,3 +134,14 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.nav-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.8rem;
+  
+}
+.nav-link:active{
+  color: aqua;
+  text-underline-position: below;
+  
+
+}
