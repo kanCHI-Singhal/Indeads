@@ -227,3 +227,48 @@
     transform: rotate(0deg);
   }
 }
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    height: fit-content;
+    width: fit-content;  
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+     
+}
+
+@media (max-width: 800px){
+  .flexContainer{
+    flex-direction: column;
+  }
+}
+
+.flexContent{
+  background-image: linear-gradient(to bottom right, #9336B4, yellow); ; 
+  width: 13rem;
+  height: 20rem;
+  color: black;
+  font-size: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow:0.3rem 0.3rem #F3BCC8;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+.flexContent:hover{
+  box-shadow: 0 0 0.5rem 0.5rem #F3BCC8 ;
+}
+
+.para{
+  text-align: center;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

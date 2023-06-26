@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gpratap608/Indeads/issues"
   },
-  "homepage": "https://github.com/gpratap608/Indeads#readme"
+  "homepage": "https://github.com/gpratap608/Indeads#readme",
+  "dependencies": {
+    "typewriter-effect": "^2.20.1"
+  }
 }

@@ -105,7 +105,11 @@ a {
     color-scheme: dark;
   }
 }
-
+nav{
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
 ul {
   list-style-type: none;
   margin: 0;

@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div>
           <nav>
-          <ul class="nav">
+          <ul className="nav">
                 <li >
                   <a  href="#">Active</a>
                 </li>
