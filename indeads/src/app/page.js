@@ -8,24 +8,23 @@ import Typewriter from 'typewriter-effect';
 export default function Home() {
   return (
     <main className={styles.main}>
-     <h1 className={styles.Typewriter}>
-       <Typewriter
-              options={{
-                strings: ['InDeADS', 'Show', 'Earn','Grow','With...'],
-                autoStart: true,
-                loop: true,
-              }}/> 
-            </h1>
+      <h1 className={styles.Typewriter}>
+        <Typewriter
+          options={{
+            strings: ['InDiADS', 'Show', 'Earn', 'Grow', 'With...'],
+            autoStart: true,
+            loop: true,
+          }} />
+      </h1>
+      <div className={styles.Image}>
+        <img src=''></img>
+      </div>
+
+
+
       <div className={styles.flexContainer}>
-        <div className={styles.flexContent}> 
-              <div className={styles.flipcardinner}>
-                <div className={styles.flipcardfront}>
-                    <p className={styles.para}> <Link href='/business'>Business</Link></p>
-                </div>
-                <div className={styles.flipcardback}>
-                    <p className={styles.para}> Goto Business page </p>  
-                </div>                
-              </div>
+        <div className={styles.flexContent}>
+          <p className={styles.para}> <Link href='/business'>Business</Link></p>
         </div>
         <div className={styles.flexContent}>
           <p className={styles.para}> Advertise </p>
@@ -34,7 +33,7 @@ export default function Home() {
           <p className={styles.para}> Our Mission </p>
         </div>
         <div className={styles.flexContent}>
-          <p className={styles.para}> Our Mission </p>
+          <p className={styles.para}> Our Vision </p>
         </div>
       </div>
     </main>
