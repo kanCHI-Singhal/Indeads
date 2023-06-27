@@ -254,21 +254,58 @@
   font-size: 2rem;
   margin: 2rem;
   border-radius: 1rem;
-  box-shadow:0.3rem 0.3rem #F3BCC8;
   text-align: center;
   justify-content: center;
   align-content: center;
+  box-shadow: 0.09rem 0.09rem 0.5rem 0.5rem #64CCC5;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flipCardinner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
 
 
-.flexContent:hover{
-  box-shadow: 0 0 0.5rem 0.5rem #F3BCC8 ;
+.flexContent:hover .flipCardinner{
+  transform: rotateY(180deg);
+}
+
+.flexContent{
+  transition: 0.8s;
 }
 
 .para{
   text-align: center;
   margin-top: 50%;
   margin-bottom: 50%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.Typewriter{
+  color: black;
+}
+
+.flipcardfront, .flipcardback{
+  background-image: linear-gradient(to bottom right, #9336B4, #98EECC); ; 
+  width: 13rem;
+  height: 20rem;
+  color: black;
+  font-size: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0.09rem 0.09rem 0.5rem 0.5rem #64CCC5;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }

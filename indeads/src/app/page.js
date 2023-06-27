@@ -18,7 +18,14 @@ export default function Home() {
             </h1>
       <div className={styles.flexContainer}>
         <div className={styles.flexContent}> 
-          <p className={styles.para}> <Link href='/business'>Business</Link> </p>
+              <div className={styles.flipcardinner}>
+                <div className={styles.flipcardfront}>
+                    <p className={styles.para}> <Link href='/business'>Business</Link></p>
+                </div>
+                <div className={styles.flipcardback}>
+                    <p className={styles.para}> Goto Business page </p>  
+                </div>                
+              </div>
         </div>
         <div className={styles.flexContent}>
           <p className={styles.para}> Advertise </p>
