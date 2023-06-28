@@ -11,7 +11,7 @@ export default function Home() {
       <h1 className={styles.Typewriter}>
         <Typewriter
           options={{
-            strings: ['InDiADS', 'Show', 'Earn', 'Grow', 'With...'],
+            strings: ['InDiAds', 'Show', 'Earn', 'Grow', 'With...'],
             autoStart: true,
             loop: true,
           }} />
@@ -21,19 +21,18 @@ export default function Home() {
       </div>
 
 
-
       <div className={styles.flexContainer}>
         <div className={styles.flexContent}>
           <p className={styles.para}> <Link href='/business'>Business</Link></p>
         </div>
         <div className={styles.flexContent}>
-          <p className={styles.para}> Advertise </p>
+          <p className={styles.para}><Link href='/Advertise'> Advertise</Link> </p>
         </div>
         <div className={styles.flexContent}>
-          <p className={styles.para}> Our Mission </p>
+          <p className={styles.para}> <Link href='/Users'> Happy Clients</Link> </p>
         </div>
         <div className={styles.flexContent}>
-          <p className={styles.para}> Our Vision </p>
+          <p className={styles.para}>  <Link href='Pendings'> Upcoming Projects </Link> </p>
         </div>
       </div>
     </main>

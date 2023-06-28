@@ -93,7 +93,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    background-image: linear-gradient(to right,#e3e3e3,#cfee86 );
+    background-image: linear-gradient(to right,#e3e3e3,#e3e3e3 );
 }
 
 a {
@@ -134,4 +134,82 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+.flexContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.flexContent{
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+#instagram:hover{
+  
+  box-shadow: 0rem 0rem 1rem 1rem #ff3377;
+}
+#instagram{
+  border-radius:50%;
+  transition: 0.8s;
+}
+
+#twitter:hover{
+  
+  box-shadow: 0rem 0rem 1rem 1rem #0099ff;
+}
+#twitter{
+  border-radius:50%;
+  transition: 0.8s;
+}
+
+#linkedin:hover{
+  
+  box-shadow: 0rem 0rem 1rem 1rem #3366ff;
+}
+#linkedin{
+  border-radius:50%;
+  transition: 0.8s;
+}
+
+#facebook:hover{
+  
+  box-shadow: 0rem 0rem 1rem 1rem #336699;
+}
+#facebook{
+  border-radius:50%;
+  transition: 0.8s;
+}
+
+.footer {
+  height: fit-content;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.flexContainer2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+@media(max-width:800px) {
+  .flexContainer2{
+    flex-direction: column;
+  }
+  
 }

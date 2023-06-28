@@ -257,14 +257,13 @@
   text-align: center;
   justify-content: center;
   align-content: center;
-  box-shadow: 0.09rem 0.09rem 0.5rem 0.5rem #64CCC5;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
 
 
 .flexContent:hover{
-  box-shadow: 0.09rem 0.09rem 1.5rem 1.5rem #64CCC5; 
+  box-shadow: 0.09rem 0.09rem 0.5rem 0.5rem #64CCC5; 
 }
 
 .flexContent{
@@ -285,21 +284,6 @@
   color: black;
 }
 
-.flipcardfront, .flipcardback{
-  background-image: linear-gradient(to bottom right, #9336B4, #98EECC); ; 
-  width: 13rem;
-  height: 20rem;
-  color: black;
-  font-size: 2rem;
-  margin: 2rem;
-  border-radius: 1rem;
-  text-align: center;
-  justify-content: center;
-  align-content: center;
-  box-shadow: 0.09rem 0.09rem 0.5rem 0.5rem #64CCC5;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
 
 .carousel h3, .carousel p {
   color: #000;

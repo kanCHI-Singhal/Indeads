@@ -1,7 +1,8 @@
 "use clients"
 import './globals.css'
 import { Inter } from 'next/font/google'
-
+import { SocialIcon } from 'react-social-icons'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,8 +35,23 @@ export default function RootLayout({ children }) {
         </div>
         
         {children}
-      
-      
+
+        <div>
+          <footer className='footer'>
+                  <div className='flexContainer'>
+                    <div className='flexContent' id='twitter'> <SocialIcon url="https://twitter.com/Indiads_2023" /> </div>
+                    <div className='flexContent' id='instagram'> <SocialIcon url="https://instagram.com/indiads.2023?igshid=MzNlNGNkZWQ4Mg==" /> </div>
+                    <div className='flexContent' id='linkedin'> <SocialIcon url="https://www.linkedin.com/company/indiads2023/" /> </div>
+                    <div className='flexContent' id='facebook'> <SocialIcon url="https://www.facebook.com/indiads.2023?mibextid=ZbWKwL" /> </div>
+                  </div>
+                  <div className='flexContainer2'>
+                    <div className='flexContent'> 	&#169;InDiAds </div>
+                    <div className='flexContent'> 	<Link href='/contact'> Contact Us</Link> </div> 
+                    <div className='flexContent'><Link href='/report'> Report a Problem </Link></div>                   
+                  </div>
+          </footer>
+        </div>
+
       </body>
     </html>
   )
