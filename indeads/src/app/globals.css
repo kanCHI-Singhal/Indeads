@@ -213,3 +213,11 @@ li a:hover {
   }
   
 }
+
+
+@media(max-width:480px) {
+  .flexContainer2{
+    flex-direction: column;
+  }
+  
+}

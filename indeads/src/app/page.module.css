@@ -244,10 +244,24 @@
   .flexContainer{
     flex-direction: column;
   }
+  .flexContainerimage{
+    flex-direction: column;
+  }
 }
+
+@media (max-width: 480px){
+  .flexContainer{
+    flex-direction: column;
+  }
+  .flexContainerimage{
+    flex-direction: column;
+  }
+}
+
 
 .flexContent{
   background-image: linear-gradient(to bottom right, #9336B4, #98EECC); ; 
+  display: flex;
   width: 13rem;
   height: 20rem;
   color: black;
@@ -258,7 +272,6 @@
   justify-content: center;
   align-content: center;
   transition: transform 0.8s;
-  transform-style: preserve-3d;
 }
 
 
@@ -287,4 +300,47 @@
 
 .carousel h3, .carousel p {
   color: #000;
+}
+
+.flexContainerimage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: fit-content;
+  width: 70rem;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.flexContentimage{
+    display: flex;
+    background-color: gray;
+    margin: 3rem;
+    align-content: center;
+    justify-content: center;
+    height: 25rem;
+    width: 28rem;
+    color: #000;
+    border-radius: 10%;
+    align-items: center;
+
+}
+.flexContainerbusiness{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.flexContentbusiness{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 10rem;
+}
+
+.mb-3{
+  background-color: transparent;
 }
