@@ -247,6 +247,9 @@
   .flexContainerimage{
     flex-direction: column;
   }
+  .flexContentimage{
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 480px){
@@ -254,6 +257,9 @@
     flex-direction: column;
   }
   .flexContainerimage{
+    flex-direction: column;
+  }
+  .flexContentimage{
     flex-direction: column;
   }
 }
@@ -341,6 +347,3 @@
   margin: 10rem;
 }
 
-.mb-3{
-  background-color: transparent;
-}

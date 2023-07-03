@@ -10,7 +10,7 @@ export default function Business(){
                     <h1 className={styles.Typewriter}> Business </h1>
                 </div>
                 <div className={styles.flexContentbusiness}>
-                    <Tabz/>
+                    
                 </div>
             </div>
         </main>
