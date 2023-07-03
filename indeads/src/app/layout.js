@@ -19,16 +19,16 @@ export default function RootLayout({ children }) {
           <nav>
           <ul className="nav">
                 <li className='nav-link' >
-                  <a href="/">Home</a>
+                  <Link className='link' href="/">Home</Link>
                 </li>
                 <li className='nav-link'>
-                  <a  href="/">Link</a>
+                  <Link className='link' href="/">Link</Link>
                 </li>
                 <li className='nav-link'>
-                  <a  href="/">Link</a>
+                  <Link className='link' href="/">Link</Link>
                 </li>
                 <li className='nav-link'>
-                  <a  href="/">Disabled</a>
+                  <Link className='link' href="/">Disabled</Link>
                 </li>
               </ul>
           </nav>
@@ -46,8 +46,8 @@ export default function RootLayout({ children }) {
                   </div>
                   <div className='flexContainer2'>
                     <div className='flexContent'> 	&#169;InDiAds </div>
-                    <div className='flexContent'> 	<Link href='/contact'> Contact Us</Link> </div> 
-                    <div className='flexContent'><Link href='/report'> Report a Problem </Link></div>                   
+                    <div className='flexContent'> 	<Link className='link' href='/contact'> Contact Us</Link> </div> 
+                    <div className='flexContent'><Link className='link' href='/report'> Report a Problem </Link></div>                   
                   </div>
           </footer>
         </div>

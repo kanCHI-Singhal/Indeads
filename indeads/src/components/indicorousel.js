@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Corousel = () => {
+const Corouselindi = () => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -53,4 +53,4 @@ const Corousel = () => {
   );
 }
 
-export default Corousel;
+export default Corouselindi;

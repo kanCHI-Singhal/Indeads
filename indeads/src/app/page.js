@@ -5,6 +5,9 @@ import styles from './page.module.css'
 import Link from 'next/link'
 import Typewriter from 'typewriter-effect';
 import { useState } from 'react';
+import Corousel from '@/components/corousel';
+import Corouselindi from '@/components/indicorousel';
+
 
 export default function Home() {
   
@@ -22,32 +25,30 @@ export default function Home() {
           <div className={styles.flexContainerimage}>
               <div className={styles.flexContentimage}>
                     <div className={styles.Image}>
-                      <img src='' alt=''></img>
-                      <h3> InDiAds </h3>
+                        <Corouselindi/>
                     </div>
               </div>
               <div className={styles.flexContentimage}>
                     <div className={styles.Image}>
-                        <img src='' alt=''></img>
-                        <h3>  Ads </h3>
+                        <Corousel/>
                     </div>
               </div>
           </div>
-
+      
 
 
       <div className={styles.flexContainer}>
         <div className={styles.flexContent}>
-          <p className={styles.para}> <Link href='/business'>Business</Link></p>
+          <p className={styles.para}> <Link className={styles.link} href='/business'>Business</Link></p>
         </div>
         <div className={styles.flexContent}>
-          <p className={styles.para}><Link href='/Advertise'> Advertise</Link> </p>
+          <p className={styles.para}><Link className={styles.link} href='/Advertise'> Advertise</Link> </p>
         </div>
         <div className={styles.flexContent}>
-          <p className={styles.para}> <Link href='/Users'> Happy Clients</Link> </p>
+          <p className={styles.para}> <Link className={styles.link} href='/Users'> Happy Clients</Link> </p>
         </div>
         <div className={styles.flexContent}>
-          <p className={styles.para}>  <Link href='Pendings'> Upcoming Projects </Link> </p>
+          <p className={styles.para}>  <Link className={styles.link} href='Pendings'> Upcoming Projects </Link> </p>
         </div>
       </div>
     </main>
