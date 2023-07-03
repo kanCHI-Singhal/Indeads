@@ -244,22 +244,10 @@
   .flexContainer{
     flex-direction: column;
   }
-  .flexContainerimage{
-    flex-direction: column;
-  }
-  .flexContentimage{
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 480px){
   .flexContainer{
-    flex-direction: column;
-  }
-  .flexContainerimage{
-    flex-direction: column;
-  }
-  .flexContentimage{
     flex-direction: column;
   }
 }
@@ -314,8 +302,8 @@
   flex-wrap: wrap;
   height: fit-content;
   width: 70rem;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: center;
+  align-content: center;
 }
 
 .flexContentimage{
@@ -351,3 +339,13 @@
   color: white;
 }
 
+@media(max-width:800px){
+  .flexContainerimage{
+    flex-direction: column;
+  }
+}
+@media(max-width:480px){
+  .flexContainerimage{
+    flex-direction: column;
+  }
+}
