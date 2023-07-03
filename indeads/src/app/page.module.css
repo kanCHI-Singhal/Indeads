@@ -301,7 +301,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   height: fit-content;
-  width: 70rem;
+  width: fit-content;
   justify-content: center;
   align-content: center;
 }
