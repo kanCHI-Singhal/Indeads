@@ -25,12 +25,12 @@ export default function Home() {
           <div className={styles.flexContainerimage}>
               <div className={styles.flexContentimage}>
                     <div className={styles.Image}>
-                    {/*}   <Corouselindi/> {*/} 
+                      <Corouselindi/>  
                     </div>
               </div>
               <div className={styles.flexContentimage}>
                     <div className={styles.Image}>
-                      {/*}  <Corousel/>  {*/}
+                        <Corousel/> 
                     </div>
               </div>
           </div>
