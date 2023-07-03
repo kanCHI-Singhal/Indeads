@@ -1,5 +1,7 @@
 body {
     background-image: linear-gradient(to right,#e3e3e3,#e3e3e3 );
+    justify-content: center;
+    justify-items: center;
 }
 
 a {
@@ -21,6 +23,16 @@ nav{
   position: fixed;
   width: 100%;
   top: 0;  
+}
+@media(max-width:800px){
+  .nav{
+    width:790px;
+  }
+}
+@media(max-width:480px){
+  .nav{
+    width: 470px;
+  }
 }
 
 li {
@@ -110,21 +122,6 @@ li a:hover {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-}
-
-@media(max-width:800px) {
-  .flexContainer2{
-    flex-direction: column;
-  }
-  
-}
-
-
-@media(max-width:480px) {
-  .flexContainer2{
-    flex-direction: column;
-  }
-  
 }
 
 .link{

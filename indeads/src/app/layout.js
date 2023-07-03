@@ -1,8 +1,11 @@
-"use clients"
+"use client"
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { SocialIcon } from 'react-social-icons'
 import Link from 'next/link'
+import React from 'react'
+import { ReactDOM } from 'react'
+import Navbar from '@/components/Nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
