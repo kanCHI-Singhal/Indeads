@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         
         {children}
 
-        <div>
+        <div className='footerDiv'>
           <footer className='footer'>
                   <div className='flexContainer'>
                     <div className='flexContent' id='twitter'> <SocialIcon url="https://twitter.com/Indiads_2023" /> </div>
