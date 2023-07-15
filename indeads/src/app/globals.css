@@ -116,7 +116,7 @@ body{
 
 @media  (max-width:490px){
   .Container{
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: 3rem 3rem max-content 10rem;
   }
 }
