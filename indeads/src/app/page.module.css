@@ -1,4 +1,4 @@
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,7 +108,7 @@
   position: relative;
 }
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/*@media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -126,7 +126,7 @@
 }
 
 /* Mobile */
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
   .content {
     padding: 4rem;
   }
@@ -203,7 +203,7 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+/*@media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
@@ -226,7 +226,7 @@
   to {
     transform: rotate(0deg);
   }
-}
+} */
 
 .flexContainer{
     display: flex;
@@ -301,15 +301,20 @@
   flex-direction: row;
   flex-wrap: wrap;
   height: fit-content;
-  width: 70rem;
+  width: 60rem;
   justify-content: center;
   align-content: center;
+}
+@media only screen and (max-width:400px){
+    .flexContainerimage{
+        width: 100%;
+    }
 }
 
 .flexContentimage{
     display: flex;
     background-color: gray;
-    margin: 3rem;
+    margin: 1rem;
     align-content: center;
     justify-content: center;
     height: fit-content;
@@ -317,8 +322,13 @@
     color: #000;
     border-radius: 10%;
     align-items: center;
-
 }
+@media only screen and (max-width:400px){
+    .flexContentimage{
+        width: 100%;
+    }
+}
+
 .flexContainerbusiness{
   display: flex;
   flex-direction: row;
