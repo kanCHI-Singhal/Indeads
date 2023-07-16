@@ -6,7 +6,7 @@ import "../app/globals.css"
 
 const Navbar = ()=>{
     return(
-        <nav>
+        <nav className='nav'>
           <ul className="nav">
                 <li className='nav-link' >
                   <Link className='link' href="/">Home</Link>
