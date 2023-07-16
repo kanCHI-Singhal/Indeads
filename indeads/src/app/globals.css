@@ -240,5 +240,28 @@ transition: 0.8s;
 .pagelink{
   text-decoration: none;
   color: white;
-}
+  font-size: 200%;
 
+}
+.button{
+  background-color: transparent;
+  border: none;
+  width: 16rem;
+}
+.button:hover{
+  border-color:  #C13584;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-width: 0.2rem;
+  border-style: solid;
+  box-shadow: 0 0 1rem 1rem #C13584;
+}
+.button:active{
+  border-color:  #0077b5;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-width: 0.2rem;
+  border-style: solid;
+  box-shadow: 0 0 1rem 1rem #0077b5;  
+
+}

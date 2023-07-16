@@ -17,7 +17,8 @@ export default function Footer(){
                   <div className='flexfooter'>
                     <div className='flexContent link'> 	&#169;InDiAds </div>
                     <div className='flexContent'> 	<Link className='link' href='/contact'> Contact Us</Link> </div> 
-                    <div className='flexContent'><Link className='link' href='/report'> Report a Problem </Link></div>                   
+                    <div className='flexContent'><Link className='link' href='/report'> Report a Problem </Link></div>
+                    <div className='flexContent'><Link className='link' href='/'> Home </Link></div>                       
                   </div>
           </footer>
         </div>
