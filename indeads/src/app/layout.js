@@ -22,11 +22,11 @@ export default function RootLayout({ children }) {
             <div className='item Navbar'> <Navbar/> </div>   
             <div className='item Column'> 
                 <div className='flexContainer'>
-                    <div className='flexContent' ><button className='button'><Link href='/business' className='pagelink'> Business </Link></button></div>
-                    <div className='flexContent' ><button className='button'><Link href='/contact' className='pagelink'> Contact </Link></button></div>
-                    <div className='flexContent' ><button className='button'><Link href='/report' className='pagelink'> Report </Link></button></div>
-                    <div className='flexContent' ><button className='button'><Link href='/business' className='pagelink'> Example </Link></button></div>
-                    <div className='flexContent' ><button className='button'><Link href='/business' className='pagelink'> Example </Link></button></div>
+                    <div className='flexContent' ><Link href='/business' className='pagelink'> Business </Link></div>
+                    <div className='flexContent' ><Link href='/contact' className='pagelink'> Contact </Link></div>
+                    <div className='flexContent' ><Link href='/report' className='pagelink'> Report </Link></div>
+                    <div className='flexContent' ><Link href='/business' className='pagelink'> Example </Link></div>
+                    <div className='flexContent' ><Link href='/business' className='pagelink'> Example </Link></div>
                 </div>
             </div>
             <div className='item mainbody'>
