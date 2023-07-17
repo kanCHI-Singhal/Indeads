@@ -154,7 +154,7 @@ body{
 @media   (max-width:490px){
   .Column{
     grid-row: 2/span 1;
-    background-image : linear-gradient(to  bottom, #d9d9d9 , #db4dff);
+    background-image : linear-gradient(to  bottom, #db4dff , #d9d9d9 );
   }
   .mainbody{
     grid-column: 1/span 1;
@@ -205,7 +205,7 @@ body{
 
 #twitter{
   border-radius: 50%;
-  transition: 0.8s;
+  transition: 0.4s;
 }
 
 #facebook:hover{
@@ -215,7 +215,7 @@ body{
 
 #facebook{
 border-radius: 50%;
-transition: 0.8s;
+transition: 0.4s;
 }
 
 #instagram:hover{
@@ -225,7 +225,7 @@ transition: 0.8s;
 
 #instagram{
 border-radius: 50%;
-transition: 0.8s;
+transition: 0.4s;
 }
 
 #linkedin:hover{
@@ -235,7 +235,7 @@ transition: 0.8s;
 
 #linkedin{
 border-radius: 50%;
-transition: 0.8s;
+transition: 0.4s;
 }
 
 .pagelink{
