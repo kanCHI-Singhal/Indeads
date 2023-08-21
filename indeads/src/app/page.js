@@ -14,12 +14,13 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1 className={styles.Typewriter}>
-            <Typewriter
+            {/* <Typewriter
               options={{
                 strings: ['InDiAds', 'Show', 'Earn', 'Grow', 'With...'],
                 autoStart: true,
                 loop: true,
-              }} />
+              }} /> */}
+              InDiAds
           </h1>
           <div className={styles.flexContainerimage}>
               <div className={styles.flexContentimage}>
