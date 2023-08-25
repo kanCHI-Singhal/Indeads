@@ -124,16 +124,26 @@ body{
 .item{
   width: 100%;
   height: 100%;
+  
 }
 
 .Navbar{
+  grid-row: 1;
   grid-column: 1/span 3;
-  background-color: #000;
+   
 }
+
+/* .searchbar{
+  grid-row: 1;
+  grid-column: 2/span 1;
+  background-color: #000; 
+  z-index: 2;
+} */
 
 .Column{
   background-image : linear-gradient(to  left, #d9d9d9 , #db4dff);
-  
+  grid-column: 1/span 1;
+  grid-row: 2/span 3;
 }
 
 
@@ -247,5 +257,12 @@ transition: 0.4s;
   position: fixed;
   z-index: 3;
   width: 100%;
-  background-color: #000;
+  background-color: #000; 
+}
+
+.mobile-nav{
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background-color: blue; 
 }
