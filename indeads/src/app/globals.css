@@ -165,6 +165,7 @@ body{
   .Column{
     grid-row: 2/span 1;
     background-image : linear-gradient(to  bottom, #db4dff , #d9d9d9 );
+    z-index: -2;
   }
   .mainbody{
     grid-column: 1/span 1;
