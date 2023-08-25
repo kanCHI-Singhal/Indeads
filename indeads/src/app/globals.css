@@ -130,7 +130,7 @@ body{
 .Navbar{
   grid-row: 1;
   grid-column: 1/span 3;
-   
+  background-color: #000; 
 }
 
 /* .searchbar{
