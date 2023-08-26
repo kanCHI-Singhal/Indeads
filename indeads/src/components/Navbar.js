@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons'
 import Link from 'next/link'
 import React,{ useState, useEffect} from 'react'
 import "../app/globals.css"
-
+import Document from 'next/document'
 
 
 
@@ -11,8 +11,8 @@ const Navbar = ()=>{
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    window.addEventListener("resize", () => {
-      setScreenWidth(window.innerWidth);
+    Documentocument.addEventListener("resize", () => {
+      setScreenWidth(Document.innerWidth);
     });
   }, []);
 
