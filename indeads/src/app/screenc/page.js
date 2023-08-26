@@ -3,11 +3,12 @@ import React, { useState, useEffect } from "react";
 import styles from "../page.module.css"
 
 
-function App() {
+export default function Screen () {
+  const window = window || global
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    const window = window || global
+    
     window.addEventListener("resize", () => {
       setScreenWidth(window.innerWidth);
     });
@@ -27,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+
