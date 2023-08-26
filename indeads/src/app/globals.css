@@ -173,7 +173,7 @@ body{
     grid-column: 1/span 1;
     grid-row: 3/span 1;
   }
-  .footer{
+  .Footer{
     grid-column: 1/span 1;
     grid-row: 4/span 2;
   }
