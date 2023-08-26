@@ -11,8 +11,9 @@ const Navbar = ()=>{
   const [screenWidth, setScreenWidth] = useState(Document.innerWidth);
 
   useEffect(() => {
-    Document.addEventListener("resize", () => {
-      setScreenWidth(Document.innerWidth);
+    const window = window || global
+    window.addEventListener("resize", () => {
+      setScreenWidth(window.innerWidth);
     });
   }, []);
 
