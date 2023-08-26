@@ -22,7 +22,7 @@ export default function Navbar (){
 
     return(
         <nav className='nav-parent'>
-          <ul className = {(screenWidth>480)?"nav":"mobile-nav"}>
+          <ul className = "nav">
                 <li className='nav-link' >
                   <Link className='link' href="/">Home</Link>
                 </li>
