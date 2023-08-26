@@ -8,10 +8,10 @@ import Document from 'next/document'
 
 
 const Navbar = ()=>{
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState(Document.innerWidth);
 
   useEffect(() => {
-    Documentocument.addEventListener("resize", () => {
+    Document.addEventListener("resize", () => {
       setScreenWidth(Document.innerWidth);
     });
   }, []);
