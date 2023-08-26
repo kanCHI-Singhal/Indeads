@@ -8,15 +8,15 @@ import Document from 'next/document'
 
 
 export default function Navbar (){
-  const windows = window || global
-  const [screenWidth, setScreenWidth] = useState(windows.innerWidth);
+  // const windows = window || global
+  // const [screenWidth, setScreenWidth] = useState(windows.innerWidth);
 
-  useEffect(() => {
+  // useEffect(() => {
     
-    windows.addEventListener("resize", () => {
-      setScreenWidth(windows.innerWidth);
-    });
-  }, []);
+  //   windows.addEventListener("resize", () => {
+  //     setScreenWidth(windows.innerWidth);
+  //   });
+  // }, []);
 
 
 
