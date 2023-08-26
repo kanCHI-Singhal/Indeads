@@ -7,7 +7,7 @@ import Document from 'next/document'
 
 
 
-const Navbar = ()=>{
+export default function Navbar (){
   const window = window || global
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -40,4 +40,3 @@ const Navbar = ()=>{
     )
 }
 
-export default Navbar
