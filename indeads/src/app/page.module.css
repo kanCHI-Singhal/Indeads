@@ -360,3 +360,53 @@
     flex-direction: column;
   }
 }
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  
+}
+.indiadsContent h2{
+  text-align: center;
+}
+
+.indiadsContent{
+  width:30vw;
+  height:430px;
+  margin: 30px 0;
+  border:2px solid black;
+  justify-content: center;
+  border-radius: 15px;
+  background: linear-gradient(to right,rgb(133, 103, 49),white,rgb(59, 116, 59));
+}
+.indiadsContent p{
+ margin: 4px 4px;
+  font-size: 1.1rem;
+}
+.indiadsContent:hover{
+  transform: scale(1.02);
+  box-shadow:0 0 20px #27ad22;
+}
+
+.indiadsServicesContent h2{
+  text-align: center;
+}
+
+.indiadsServicesContent{
+  width:30vw;
+  height:430px;
+  margin: 30px 0;
+  border:2px solid black;
+  justify-content: center;
+  border-radius: 15px;
+  background: linear-gradient(to right,rgb(133, 103, 49),white,rgb(59, 116, 59));
+}
+.indiadsServicesContent p{
+ margin: 4px 4px;
+  font-size: 1.1rem;
+}
+.indiadsServicesContent:hover{
+  transform: scale(1.02);
+  box-shadow:0 0 20px #27ad22;
+}
+
