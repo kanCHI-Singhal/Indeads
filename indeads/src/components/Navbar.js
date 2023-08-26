@@ -8,13 +8,13 @@ import Document from 'next/document'
 
 
 export default function Navbar (){
-  const window = window || global
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const windows = window || global
+  const [screenWidth, setScreenWidth] = useState(windows.innerWidth);
 
   useEffect(() => {
     
-    window.addEventListener("resize", () => {
-      setScreenWidth(window.innerWidth);
+    windows.addEventListener("resize", () => {
+      setScreenWidth(windows.innerWidth);
     });
   }, []);
 
