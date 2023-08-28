@@ -289,7 +289,7 @@
 
 .Typewriter{
   color: #000;
-  margin: 1rem;
+  margin: 3rem;
 }
 
 
@@ -360,3 +360,70 @@
     flex-direction: column;
   }
 }
+
+.gridContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.textflow{
+    
+}
+
+.indiadsImage{
+    display: flex; 
+    background-color: gray;
+    margin: 1rem;
+    align-content: center;
+    justify-content: center;
+    height: max-content;
+    width: 28rem;
+    color: #000;
+    border-radius: 10%;
+    align-items: center;
+}
+
+.indiadsContent h2{
+  text-align: center;
+}
+
+.indiadsContent{
+  display:flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 28rem;
+  margin-top: 4rem;
+
+}
+.indiadsContent p{
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+
+.indiadsServicesContent h2{
+  text-align: center;
+}
+
+.indiadsServicesContent{
+  display:flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 28rem;
+}
+.indiadsServicesContent p{
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+

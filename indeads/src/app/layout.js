@@ -27,9 +27,12 @@ export default function RootLayout({ children }) {
                     <div className='flexContent' ><Link href='/report' className='pagelink'> Report </Link></div>
                     <div className='flexContent' ><Link href='/serve' className='pagelink'> Our Services </Link></div>
                     <div className='flexContent' ><Link href='/screenc' className='pagelink'> Screen Check </Link></div>
-                    <div className='flexContent' ><Link href='/aboutIndibus' className='pagelink'> About Us </Link></div>
+                    <div className='flexContent' ><Link href='/aboutIndiabus' className='pagelink'> About Us </Link></div>
                     <div className='flexContent' ><Link href='/aboutIndiads' className='pagelink'> InDiAds </Link></div>
                     <div className='flexContent' ><Link href='/Indilearn' className='pagelink'> InDiLearn </Link></div>
+                    <div className='flexContent' ><Link href='/signup' className='pagelink'> Signup </Link></div>
+                    <div className='flexContent' ><Link href='/login' className='pagelink'> Login </Link></div>
+
                 </div>
             </div>
             <div className='item mainbody'>

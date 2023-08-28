@@ -109,7 +109,7 @@ body{
 .Container{
   display: grid;
   grid-template-columns: 25% 41% 34%;
-  grid-template-rows: 3rem max-content ;
+  grid-template-rows: 3rem max-content fit-content  ;
   /* row-gap: 2rem;
   column-gap: 1rem; */
 }
@@ -117,7 +117,7 @@ body{
 @media  (max-width:490px){
   .Container{
     grid-template-columns: 100%;
-    grid-template-rows: 3rem 3rem max-content 10rem;
+    grid-template-rows: 3rem 3rem max-content ;
   }
 }
 
@@ -158,8 +158,10 @@ body{
 
 .Footer{
   grid-column: 1/span 3;
+  grid-row: 3/span 1;
   background-color: #000;
 }
+
 
 @media   (max-width:490px){
   .Column{
