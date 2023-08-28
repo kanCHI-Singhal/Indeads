@@ -426,4 +426,38 @@
   font-size: 1.1rem;
 }
 
+.signup{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.signupForm{
+  margin-top: 50px;
+  text-align: center;
+}
+.signupPageInput{
+  display: block;
+  width:350px;
+  height: 40px;
+  margin: 20px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-bottom:1px solid black;
+  background: transparent;
+
+}
+.signupButton{
+  width:350px;
+  height:40px;
+  font-size: 20px;
+  background-color: rgb(104, 59, 104);
+  border: none;
+  color:white;
+  margin-top:20px;
+}
+.signupHead{
+  margin-bottom: 30px;
+}
 
