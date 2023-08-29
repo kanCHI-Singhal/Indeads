@@ -5,22 +5,12 @@ import React,{ useState, useEffect} from 'react'
 import "../app/globals.css"
 
 
-
-
-const Navbar = ()=>{
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      setScreenWidth(window.innerWidth);
-    });
-  }, []);
-
-
+export default function Navbar (){
 
     return(
-        <nav className='nav-parent'>
-          <ul className = {(screenWidth>480)?"nav":"mobile-nav"}>
+      <nav className='nav-parent'>
+
+          <ul className = "nav">
                 <li className='nav-link' >
                   <Link className='link' href="/">Home</Link>
                 </li>
@@ -34,8 +24,8 @@ const Navbar = ()=>{
                   <Link className='link' href="/">Disabled</Link>
                 </li>
               </ul>
-          </nav>
+
+      </nav>
     )
 }
 
-export default Navbar
